@@ -12,6 +12,12 @@
     <link
       rel="stylesheet"
       href="../css/usernameField.css" />
+    <link
+      rel="stylesheet"
+      href="../css/passwordField.css" />
+    <link
+      rel="stylesheet"
+      href="../css/gradientButton.css" />
   </head>
   <body>
     <header>
@@ -28,17 +34,53 @@
     <div
       class="center"
       style="margin-left: 10vw">
-      <p id="usernameText">Please enter you username:</p>
+      <p
+        id="usernameText"
+        class="inputInstruction">
+        Please enter your username:
+      </p>
       <br />
       <input
         id="usernameField"
         type="text"
-        value="Please enter your username, i.e. your login id, credentials, sign-on name, etc." />
+        value=" Please enter your username, i.e. your login id, credentials, sign-on name, etc." />
       <br />
+    </div>
+    <br />
+    <div
+      class="center"
+      style="margin-left: 10vw">
+      <p
+        id="passwordText"
+        class="inputInstruction">
+        Please enter your password:
+      </p>
+      <br />
+      <input
+        id="passwordField"
+        type="text"
+        class="textFields"
+        value="Please enter your password"
+        onselectstart="return false"
+        oncut="return false"
+        oncopy="return false"
+        onpaste="return false"
+        ondrag="return false"
+        ondrop="return false" />
+      <br />
+      <button
+        id="firstPasswordSubmit"
+        class="GradBtn">
+        Submit password
+      </button>
+      <br />
+      <div id="repeatPassword"></div>
     </div>
 
     <footer>
       <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
+
+    <script src="../js/password.js"></script>
   </body>
 </html>

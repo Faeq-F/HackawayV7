@@ -1,6 +1,7 @@
 :root {
   --primary: #e86a26;
   --accent: #cf4307;
+  --buttonAccent: #fbff00;
 }
 
 header {
@@ -36,4 +37,23 @@ body {
 #DiscordJoinHeader {
   padding: 2em;
   text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.inputInstruction {
+  font-weight: bold;
+  padding: 0;
+  margin: 0
+}
+
+.textFields {
+  width: 50vw;
+  background-color: var(--primary);
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+  border: 0;
 }

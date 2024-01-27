@@ -18,13 +18,3 @@
   color: white;
   /* Gecko Browsers */
 }
-
-#usernameText {
-  font-weight: bold;
-  padding: 0;
-  margin: 0
-}
-
-.center {
-  margin: 0 auto;
-}
