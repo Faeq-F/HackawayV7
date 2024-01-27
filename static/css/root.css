@@ -1,0 +1,108 @@
+:root {
+  --primary: #e86a26;
+  --accent: #cf4307;
+  --buttonAccent: #fbff00;
+}
+
+header {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.digitDropdown {
+  width: auto !important;
+}
+
+header {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: calc(100% - 81px);
+  left: 0;
+  color: #000;
+  position: fixed;
+  top: 0%;
+  z-index: 500;
+  width: 100%;
+  border-radius: 0px;
+  transition: 300ms ease;
+  height: 10vh;
+  display: block;
+}
+
+.header {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+header.sticky {
+  box-shadow: rgba(221, 130, 11, 0.25) 0px 50px 100px -20px, rgba(221, 93, 8, 0.3) 0px 30px 60px -30px, rgba(219, 127, 6, 0.35) 0px -2px 6px 0px inset;
+  margin: 10px 2.5%;
+  width: 95%;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0.3em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Os";
+  margin: 0;
+  padding: 0;
+  background-color: #f7eeeb;
+}
+
+.centered-image {
+  display: block;
+  margin: auto;
+  max-width: 15em;
+  padding-top: 10px;
+}
+
+#DiscordJoinHeader {
+  padding: 2em;
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.inputInstruction {
+  font-weight: bold;
+  padding: 0;
+  margin: 0
+}
+
+.textFields {
+  width: 50vw;
+  background-color: var(--primary);
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+  border: 0;
+}
+
+.dropdownInput {
+  width: 25vw;
+  background-color: var(--primary);
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+  border: 0;
+  margin: 10px;
+}

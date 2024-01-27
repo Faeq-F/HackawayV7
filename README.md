@@ -1,1 +1,1 @@
-Get to the Royal Hackaway V7 Discord
+Get to our Royal Hackaway V7 project

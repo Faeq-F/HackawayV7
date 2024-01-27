@@ -1,0 +1,17 @@
+/* Add a class for styling the error message */
+.error {
+  color: red;
+}
+
+/* Add some basic styling for the display box */
+#displayBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 75vw;
+  margin-top: 20px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border-radius: 15px;
+}
