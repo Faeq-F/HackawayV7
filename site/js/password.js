@@ -34,9 +34,9 @@ function reEnterPassword() {
       <br>
         <input
         id="reEnterPasswordField"
-        type="text"
+        type="password"
         class="textFields"
-        value=" Please enter your password again to verify it"
+        value=""
         onselectstart="return false"
         oncut="return false"
         oncopy="return false"
