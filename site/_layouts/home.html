@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Unintuitive Website</title>
-    <style>
-        body {
-            font-family: 'Os';
-            margin: 0;
-            padding: 0;
-            background-color: #f7eeeb;
-        }
-
-        header {
-            background-color: #f04819;
-            color: #fff;
-            padding: 0.5em;
-            text-align: center;
-        }
-
-        .centered-image {
-          display: block;
-          margin: auto;
-          max-width: 15em;
-        }
-
-        section {
-            padding: 2em;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #f04819;
-            color: #fff;
-            padding: 0.3em;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="../css/root.css" />
+    <link
+      rel="stylesheet"
+      href="../css/usernameField.css" />
+  </head>
+  <body>
     <header>
-        <img class="centered-image" src="hackawaylogo.webp" alt="Full Logo">
+      <img
+        class="centered-image"
+        src="hackawaylogo.webp"
+        alt="Full Logo" />
     </header>
 
-    <section>
-        <h2>Join our Discord...</h2>
+    <section id="DiscordJoinHeader">
+      <h2>Join our Discord...</h2>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
-    </footer>
+    <div
+      class="center"
+      style="margin-left: 10vw">
+      <p id="usernameText">Please enter you username:</p>
+      <br />
+      <input
+        id="usernameField"
+        type="text"
+        value="Please enter your username, i.e. your login id, credentials, sign-on name, etc." />
+      <br />
+    </div>
 
-</body>
+    <footer>
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

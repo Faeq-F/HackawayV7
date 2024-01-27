@@ -1,0 +1,30 @@
+#usernameField {
+  width: 50vw;
+  background-color: var(--primary);
+  border-radius: 15px;
+  font-size: 30px;
+  color: transparent;
+  border: 0;
+}
+
+#usernameField::selection {
+  background: black;
+  color: white;
+  /* WebKit/Blink Browsers */
+}
+
+#usernameField::-moz-selection {
+  background: black;
+  color: white;
+  /* Gecko Browsers */
+}
+
+#usernameText {
+  font-weight: bold;
+  padding: 0;
+  margin: 0
+}
+
+.center {
+  margin: 0 auto;
+}
