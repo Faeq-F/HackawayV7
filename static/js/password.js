@@ -29,8 +29,9 @@ function reEnterPassword() {
     if (
       document.getElementById("reEnterPasswordField").value != passwordEntered
     ) {
-      alert("The password did not match");
+      passwordEntered = "";
       curr = 0;
+      alert("The password did not match");
     }
   }
   if (curr < times) {

@@ -1,7 +1,7 @@
 #usernameField {
-  width: 50vw;
+  width: 95%;
   background-color: var(--primary);
-  border-radius: 15px;
+  border-radius: 5px;
   font-size: 30px;
   color: transparent;
   border: 0;
